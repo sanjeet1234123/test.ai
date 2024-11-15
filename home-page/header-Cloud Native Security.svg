@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.741" height="73.741" viewBox="0 0 73.741 65.978">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.485" y1="0.498" x2="2.094" y2="0.498" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d2db2"/>
+      <stop offset="1" stop-color="#1f1659"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.107" y1="0.499" x2="-0.711" y2="0.499" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.96" y1="0.488" x2="-0.126" y2="0.488" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-0.013" y1="0.5" x2="1.661" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.603" y1="19.827" x2="1.613" y2="19.827" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4cd2a"/>
+      <stop offset="1" stop-color="#d28d0d"/>
+    </linearGradient>
+  </defs>
+  <g id="Drop_Down_02_Platform-Cloud_Native_Security" data-name="Drop Down_02 Platform-Cloud Native Security" transform="translate(0 0.156)">
+    <path id="Path_14179" data-name="Path 14179" d="M22.008,93.125H5.348A2.36,2.36,0,0,1,3.1,90.04a9.711,9.711,0,0,1,18.912,3.085Z" transform="translate(-2.973 -27.373)" fill="url(#linear-gradient)"/>
+    <path id="Path_14180" data-name="Path 14180" d="M90.57,93.215H73.91A9.711,9.711,0,0,1,92.822,90.13a2.36,2.36,0,0,1-2.252,3.085Z" transform="translate(-19.195 -27.394)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_14181" data-name="Path 14181" d="M78.507,92.178a13.482,13.482,0,0,0-26.957,0" transform="translate(-14.081 -26.364)" fill="url(#linear-gradient-3)"/>
+    <path id="Path_14182" data-name="Path 14182" d="M55.836,89.5a22.2,22.2,0,1,0-44.391,0" transform="translate(-4.908 -23.684)" fill="url(#linear-gradient-4)"/>
+    <rect id="Rectangle_3410" data-name="Rectangle 3410" width="39.343" height="12.032" rx="3.82" transform="translate(55.401 24.676) rotate(-179.79)" fill="url(#linear-gradient-5)"/>
+    <line id="Line_456" data-name="Line 456" x2="14.431" y2="0.046" transform="translate(33.358 17.123)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.17"/>
+    <line id="Line_457" data-name="Line 457" x2="18.287" y2="0.062" transform="translate(33.35 20.053)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.17"/>
+    <ellipse id="Ellipse_860" data-name="Ellipse 860" cx="1.72" cy="1.72" rx="1.72" ry="1.72" transform="translate(20.94 16.166)" fill="#fff"/>
+    <rect id="Rectangle_3411" data-name="Rectangle 3411" width="39.343" height="12.032" rx="3.82" transform="translate(55.286 41.606) rotate(-179.79)" fill="#00816d"/>
+    <line id="Line_458" data-name="Line 458" x2="14.431" y2="0.046" transform="translate(33.25 34.052)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.17"/>
+    <line id="Line_459" data-name="Line 459" x2="18.287" y2="0.062" transform="translate(33.243 36.983)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.17"/>
+    <ellipse id="Ellipse_861" data-name="Ellipse 861" cx="1.72" cy="1.72" rx="1.72" ry="1.72" transform="translate(20.832 33.096)" fill="#fff"/>
+    <path id="Path_14183" data-name="Path 14183" d="M16.64,64.612V19.731A5.7,5.7,0,0,1,22.317,14h39.1a5.692,5.692,0,0,1,5.692,5.7V68.222" transform="translate(-6.096 -11.493)" fill="none" stroke="#00816d" stroke-miterlimit="10" stroke-width="1.02"/>
+    <ellipse id="Ellipse_862" data-name="Ellipse 862" cx="2.7" cy="2.7" rx="2.7" ry="2.7" transform="translate(3.263 9.402)" fill="#f44545"/>
+    <ellipse id="Ellipse_863" data-name="Ellipse 863" cx="2.7" cy="2.7" rx="2.7" ry="2.7" transform="translate(0 29.633)" fill="#f44545"/>
+    <ellipse id="Ellipse_864" data-name="Ellipse 864" cx="2.7" cy="2.7" rx="2.7" ry="2.7" transform="translate(67.665 9.402)" fill="#f44545"/>
+    <line id="Line_460" data-name="Line 460" x2="3.131" y2="9.556" transform="translate(1.951 0)" fill="none" stroke="#f44545" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_14184" data-name="Path 14184" d="M91.693,59.4,83.24,43.2,90.081,28.72" transform="translate(-21.329 -14.86)" fill="none" stroke="#f44545" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_14185" data-name="Path 14185" d="M7.2,61.99l6.255-4.443-6-3.887" transform="translate(-3.937 -20.564)" fill="none" stroke="#f44545" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

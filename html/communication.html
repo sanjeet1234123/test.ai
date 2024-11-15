@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <meta name="Description" content="Put your description here." />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>XenonStack AI</title>
+    <link rel="shortcut icon" href="../images/xai-favicon.svg">
+    <link rel="apple-touch-icon" href="../images/xai-favicon.svg">
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:type" content="web page">
+    <meta property="og:url" content="https://www.xenonstack.ai/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://x.com/XenonStack">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description"
+        content="Unlock the potential of fully automated workflows with advanced Vision AI and AI agents, driving efficiency and self-sustaining processes">
+    <meta property="og:title" content="Autonomous Operations Powered by Vision AI and AI Agents">
+    <meta name="twitter:description"
+        content="Unlock the potential of fully automated workflows with advanced Vision AI and AI agents, driving efficiency and self-sustaining processes">
+    <meta name="twitter:title" content=" Autonomous Operations Powered by Vision AI and AI Agents">
+    <link rel="stylesheet" href="../css/homepage/header.css" />
+    <link rel="stylesheet" href="../css/common/grid.css" />
+    <link rel="stylesheet" href="../css/common/primary.css" />
+    <link rel="stylesheet" href="../css/homepage/header-dropdown.css" />
+    <link rel="stylesheet" href="../css/homepage/button-xenon.css" />
+    <link rel="stylesheet" href="../css/homepage/homepage.css" />
+    <link rel="stylesheet" href="../css/solutionspage/solutionspage.css" />
+    <link rel="stylesheet" href="../css/communicationpage/communicationpage.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header-wrapper" id="headerblock">
+        <div class="container header-container">
+            <div class="mobile-header-block">
+                <div class="mobile-header-inner">
+                    <a href="/">
+                        <img src="../images/xai-logo.svg" width="200" height="50" alt="xenonstack-ai-logo"
+                            id="colorLogoMobile">
+                        <img src="../images/xai-logo.svg" alt="xenonstack-ai-logo" width="200" height="50"
+                            id="uncolorLogoMobile" style="display: none;">
+                    </a>
+                    <div class="mobile-right">
+                        <div class="mobile-search"></div>
+                        <div class="menu-icon">
+                            <img src="../images/home-page/black-hamburger.svg" class="xenonstack-hamburger"
+                                alt="Xenonstack Hamburger" onclick="showMenu()" id="colorHamburgerMobile">
+                            <img src="../images/home-page/black-hamburger.svg" class="xenonstack-hamburger"
+                                alt="Xenonstack Hamburger" onclick="showMenu()" id="uncolorHamburgerMobile"
+                                style="display: none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="header">
+                <ul class="nav-ul">
+                    <li class="nav-li logo-li" style="display: flex;">
+                        <a href="/">
+                            <img src="../images/xai-logo.svg" width="200" height="50"  alt="xenonstack-ai-logo"
+                                id="colorLogo" style="display: block; margin-right: 3rem;">
+                            <img src="../images/xai-logo.svg" width="200" height="50" alt="xenonstack-ai-logo"
+                                id="uncolorLogo" style="display: none;margin-right: 3rem;">
+                        </a>
+                        <div class="menu-icon">
+                            <em class="fa fa-bars" onclick="showMenu()"></em>
+                        </div>
+                    </li>
+                    <li class="nav-li platform-li item" id="nav-platform" style="display: flex">
+                        <a href="" class="arrow">About Us</a>
+                    </li>
+                    <li class="nav-li item" id="nav-solutions" style="display: flex">
+                        <a href="" class="arrow">Products</a>
+                    </li>
+                    <li class="nav-li item header-position" id="nav-solutions">
+                        <a class="arrow">Solutions <span class="dropdown-icon" onclick="toggleAccordion(event)">▼</span></a>
+                        <div class="dropdown-content">
+                            <div class="top-dropdown-content" >
+                                <div class="left-dropdown-content">
+                                    <p>Industries</p>
+                                </div>
+                                <div class="right-dropdown-content">
+                                    <a href="https://www.xenonstack.ai/solution" class="view-all" style="color: #6C54FF">View All Industries</a>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                        alt="read-more-arrow">
+                                </div>
+                            </div>
+                            <div class="industries">
+                                <div class="industry-column">
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/microphone-2.svg" alt="communication-images">
+                                        <a href="https://www.xenonstack.ai/communication">Communications</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/building.svg" alt="consumer-images">
+                                        <a href="#">Consumer Goods</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/book.svg" alt="education-images">
+                                        <a href="#">Education</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/sun.svg" alt="education-images">
+                                        <a href="#">Energy</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/building-4.svg" alt="smart-cities-images">
+                                        <a href="#">Smart Cities</a>
+                                    </div>
+                                </div>
+                                <div class="industry-column">
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/courthouse.svg" alt="government-images">
+                                        <a href="#">Government</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/media-industry-image.svg" alt="media-images">
+                                        <a href="#">Media</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/airplane.svg" alt="aerospace-images">
+                                        <a href="#">Aerospace</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/group.svg" alt="transportation-images">
+                                        <a href="#">Transportation</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/lock.svg" alt="security-images">
+                                        <a href="#">Security</a>
+                                    </div>
+                                </div>
+                                <div class="industry-column">
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/telco-image.svg" alt="telco-images">
+                                        <a href="#">Telco</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/bank.svg" alt="bank-images">
+                                        <a href="#">Banking</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/shopping-cart.svg" alt="utility-images">
+                                        <a href="#">Utility</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/dollar-circle.svg" alt="financial-services-images">
+                                        <a href="#">Financial Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-content-mobile" style="display: none;">
+                            <div class="top-dropdown-content">
+                                <div class="left-dropdown-content">
+                                    <p>Industries</p>
+                                </div>
+                                <div class="right-dropdown-content">
+                                    <a href="https://www.xenonstack.ai/solution" class="view-all" style="color: #6C54FF">View All Industries</a>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg" alt="read-more-arrow">
+                                </div>
+                            </div>
+                            <div class="mobile-industries">
+                                <div class="industry-column">
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/microphone-2.svg" alt="communication-images">
+                                        <a href="https://www.xenonstack.ai/communication">Communications</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/building.svg" alt="consumer-images">
+                                        <a href="#">Consumer Goods</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/book.svg" alt="education-images">
+                                        <a href="#">Education</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/sun.svg" alt="education-images">
+                                        <a href="#">Energy</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/building-4.svg" alt="smart-cities-images">
+                                        <a href="#">Smart Cities</a>
+                                    </div>
+                                </div>
+                                <div class="industry-column">
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/courthouse.svg" alt="government-images">
+                                        <a href="#">Government</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/media-industry-image.svg" alt="media-images">
+                                        <a href="#">Media</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/airplane.svg" alt="aerospace-images">
+                                        <a href="#">Aerospace</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/group.svg" alt="transportation-images">
+                                        <a href="#">Transportation</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/lock.svg" alt="security-images">
+                                        <a href="#">Security</a>
+                                    </div>
+                                </div>
+                                <div class="industry-column">
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/telco-image.svg" alt="telco-images">
+                                        <a href="#">Telco</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/bank.svg" alt="bank-images">
+                                        <a href="#">Banking</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/use-cases/shopping-cart.svg" alt="utility-images">
+                                        <a href="#">Utility</a>
+                                    </div>
+                                    <div class="industry-wrapper">
+                                        <img src="../images/solutionpage/industry-section/dollar-circle.svg" alt="financial-services-images">
+                                        <a href="#">Financial Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-li item" id="nav-usecase" style="display: flex">
+                        <a href="" class="arrow">Agentic AI</a>
+                    </li>
+                    <li class="nav-li item" id="nav-usecase" style="display: flex">
+                        <a href="" class="arrow">Usecases</a>
+                    </li>
+                    <li class="nav-li item" id="nav-integration" style="display: flex">
+                        <a href="" class="arrow">Resources</a>
+                    </li>
+                    <li>
+                        <div class="nav-li button-item">
+                            <a href="#">
+                                <button class="nav-button button-margin">Contact Us</button>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <!--banner section-->
+    <section class="solution-banner-section">
+        <div class="container">
+            <div class="solution-banner-wrapper">
+                <div class="solution-banner-left-section col-12 col-sm-6 col-md-6col-lg-6">
+                    <!-- <h1>Autonomous <br /> <spanclass="heading-colored-text">Operations </span> Powered</h1> -->
+                    <h1>Elevate Decision-Making with Advanced Visual Intelligence</h1>
+                    <p class="solution-banner-para">Explore our suite of solutions that harness the power of visualAI to transform decision-making
+                        processes.</p>
+                    <div class="solution-banner-button-wrapper">
+                        <div class="banner-button-one">
+                            <a href="#">
+                                <p>Get Started</p>
+                            </a>
+                        </div>
+                        <div class="banner-button-two">
+                            <a href="#">
+                                <p>Book Demo</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-banner-right-section col-12 col-sm-6 col-md-6col-lg-6">
+                    <img src="../images/industry-page/industry-page-banner-image.svg" alt="solution-banner-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--second section - ROI-->
+    <section class="industry-section1">
+        <div class="container">
+            <div class="industry-section-wrapper1 row justify-content-between align-items-center ">
+                <div class="industry-left-section col-12 col-sm-12 col-md-12 col-lg-5">
+                    <h2>Industry Overview</h2>
+                    <p>Computer vision empowers telecommunications technicians to quickly scan for compliance and anomalies 
+                        at a work site</p>
+                    <div class="industry-overview-conatiner">
+                        <div class="industry-inner-wrapper">
+                            <div class="industry-left-wrapper">
+                                <img src="../images/communicationpage/survey-blue-image.svg" alt="survey-blue-image">
+                            </div>
+                            <div class="industry-right-wrapper">
+                                <h3>Survey Terrain For New Assets</h3>
+                                <p>AI system that can create realistic images and art from a description in natural language.
+                                    Label data quickly </p>
+                    
+                            </div>
+                        </div>
+                        <div class="industry-inner-wrapper">
+                            <div class="industry-left-wrapper">
+                                <img src="../images/communicationpage/surver-yellow-image.svg" alt="survey-yellow-image">
+                            </div>
+                            <div class="industry-right-wrapper">
+                                <h3>Survey Terrain For New Assets</h3>
+                                <p>AI system that can create realistic images and art from a description in natural language.
+                                    Label data quickly </p>
+                    
+                            </div>
+                        </div>
+                        <div class="industry-inner-wrapper">
+                            <div class="industry-left-wrapper">
+                                <img src="../images/communicationpage/servey-red-image.svg" alt="survey-blue-image">
+                            </div>
+                            <div class="industry-right-wrapper">
+                                <h3>Survey Terrain For New Assets</h3>
+                                <p>AI system that can create realistic images and art from a description in natural language.
+                                    Label data quickly </p>
+                    
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="roi-right-section img-width col-12 col-sm-12 col-md-12 col-lg-6">
+                    <img src="../images/solutionpage/roi-section-image.svg" alt="roi-section-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--third section - Solution Industry-->
+    <section class="industry-solution-section">
+        <div class="container">
+            <div class="industry-section-wrapper-third">
+                <h2>Solutions</h2>
+                <p>Our solutions harness the power of visual data, transforming it into actionable insights through advanced AI.</p>
+                <div class="row industry-row-wrapper">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="industry-section">
+                            <img src="../images/communicationpage/network-enquipment-image.svg"
+                                alt="consumer-industry-image">
+                            <div class="industry-content-wrapper-third">
+                                <div>
+                                <h3>Network Equipment Inspection</h3>
+                                <p>Learn how computer vision systems can be applied in the real world for automating 
+                                    traditionally manual and time-consuming</p>
+                                </div>
+                                <div class="read-more-button">
+                                    <p>Read more</p>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                        alt="read-more-arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="industry-section">
+                            <img src="../images/communicationpage/signal-integrity-image.svg"
+                                alt="education-industry-image">
+                            <div class="industry-content-wrapper-third">
+                                <div>
+                                <h3>Signal Integrity Analysis</h3>
+                                <p>Learn how computer vision systems can be applied in the real world for automating traditionally 
+                                    manual and time-consuming</p>
+                                </div>
+                                <div class="read-more-button">
+                                    <p>Read more</p>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                        alt="read-more-arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="industry-section">
+                            <img src="../images/communicationpage/real-time-video-image.svg"
+                                alt="education-industry-image">
+                            <div class="industry-content-wrapper-third">
+                                <div>
+                                <h3>Real-time Video Analytics</h3>
+                                <p>Learn how computer vision systems can be applied in the real world for automating traditionally 
+                                    manual and time-consuming</p>
+                                </div>
+                                <div class="read-more-button">
+                                    <p>Read more</p>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                        alt="read-more-arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row industry-row-wrapper">
+                    <div class="col-12 col-sm-6">
+                        <div class="industry-section">
+                            <img src="../images/communicationpage/automated-incidents-images.svg"
+                                alt="government-industry-image">
+                            <div class="industry-content-wrapper-third">
+                                <div>
+                                <h3>Government</h3>
+                                <p>Implements surveillance technologies for traffic management, public safety, and
+                                    document digitization.</p>
+                                </div>
+                                <div class="read-more-button">
+                                    <p>Read more</p>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                        alt="read-more-arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="industry-section">
+                            <img src="../images/communicationpage/traffic-load-image.svg"
+                                alt="media-industry-image">
+                            <div class="industry-content-wrapper-third">
+                                <div>
+                                <h3>Media</h3>
+                                <p>Enhances content management and audience engagement through automated video editing
+                                    and monitoring.</p>
+                                </div>
+                                <div class="read-more-button">
+                                    <p>Read more</p>
+                                    <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                        alt="read-more-arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="model-quality-section">
+        <div class="container">
+            <div class="model-quality-wrapper">
+                <h2>Improve Model Quality With Less Data</h2>
+                <p>Our solutions harness the power of visual data, transforming it
+                    into actionable insights through advanced AI.</p>
+                <div class="row model-quality-card-wrapper">
+                    <div class="col-12 col-sm-3 model-quality-hover">
+                        <div class="model-quality-card">
+                            <img src="../images/communicationpage/tilling-image.svg" alt="tilling-image">
+                            <div class="model-quality-botton-card">
+                                <h3>Tiling</h3>
+                                <p>project management with time tracking & invoicing capabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 model-quality-hover">
+                        <div class="model-quality-card">
+                            <img src="../images/communicationpage/training-image.svg" alt="training-image">
+                            <div class="model-quality-botton-card">
+                                <h3>Training Integrations</h3>
+                                <p>Online collaborations tools and software for the remote teams.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 model-quality-hover">
+                        <div class="model-quality-card">
+                            <img src="../images/communicationpage/augmentations.svg" alt="augmentations-image">
+                            <div class="model-quality-botton-card">
+                                <h3>Augmentations</h3>
+                                <p>Sharko project manager software interface is highly customizable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 model-quality-hover">
+                        <div class="model-quality-card">
+                            <img src="../images/communicationpage/version-control-image.svg">
+                            <div class="model-quality-botton-card">
+                                <h3>Version Control</h3>
+                                <p>Problem solving is the way by which solutions are developed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fourth section - Industry Usecases-->
+    <section class="industry-usecases-section">
+        <div class="container">
+            <div class="industry-usecases-wrapper">
+                <h2>Improve Model Quality With Less Data</h2>
+                <p>Our solutions harness the power of visual data, transforming it into actionable insights through advanced AI.</p>
+                <div class="industry-usecases-information">
+                    <div class="usecases-progress-container row">
+                        <div class="col-12 usecases-progress-wrapper" data-id="1">
+                            <div class="top-progress-bar"></div>
+                            <div class="use-cases-content">
+                                <h2>01</h2>
+                                <div class="use-cases-botton-content">
+                                    <h3>Predictive Maintenance</h3>
+                                    <p>Learn how computer vision systems can be applied in the real world for automating traditionally
+                                        manual and time-consuming tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 usecases-progress-wrapper" data-id="2">
+                            <div class="top-progress-bar"></div>
+                            <div class="use-cases-content">
+                                <h2>02</h2>
+                                <div class="use-cases-botton-content">
+                                    <h3>Network Optimization</h3>
+                                    <p>Learn how computer vision systems can be applied in the real world for automating traditionally
+                                        manual and time-consuming tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 usecases-progress-wrapper" data-id="3">
+                            <div class="top-progress-bar"></div>
+                            <div class="use-cases-content">
+                                <h2>03</h2>
+                                <div class="use-cases-botton-content">
+                                    <h3>Scale Your Model Upward Efficiently</h3>
+                                    <p>Learn how computer vision systems can be applied in the real world for automating traditionally
+                                        manual and time-consuming tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 usecases-progress-wrapper" data-id="4">
+                            <div class="top-progress-bar"></div>
+                            <div class="use-cases-content">
+                                <h2>04</h2>
+                                <div class="use-cases-botton-content">
+                                    <h3>Continuously Improve</h3>
+                                    <p>Learn how computer vision systems can be applied in the real world for automating traditionally
+                                        manual and time-consuming tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 usecases-progress-wrapper" data-id="5">
+                            <div class="top-progress-bar"></div>
+                            <div class="use-cases-content">
+                                <h2>05</h2>
+                                <div class="use-cases-botton-content">
+                                    <h3>Continuously Improve</h3>
+                                    <p>Learn how computer vision systems can be applied in the real world for automating traditionally
+                                        manual and time-consuming tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Usecase Content Sections -->
+                    <div class="usecases-progress-content row" data-id="1">
+                        <div class="usecases-left-progress progress-padding col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="top-usecases-left-progress">
+                                <h2>01</h2>
+                                <h3>Predictive Maintenance</h3>
+                                <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic initiatives.
+                                </p>
+                            </div>
+                            <div class="bottom-usecases-left-progress">
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="usecases-left-progress col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img style="width: 100%;" src="../images/communicationpage/predictive-maintenance.svg"
+                                alt="predictive-maintenance-image">
+                        </div>
+                    </div>
+                    <div class="usecases-progress-content row" data-id="2">
+                        <div class="usecases-left-progress progress-padding col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="top-usecases-left-progress">
+                                <h2>02</h2>
+                                <h3>Network Optimization</h3>
+                                <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic initiatives.
+                                </p>
+                            </div>
+                            <div class="bottom-usecases-left-progress">
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="usecases-left-progress col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img style="width: 100%;" src="../images/communicationpage/predictive-maintenance.svg"
+                                alt="predictive-maintenance-image">
+                        </div>
+                    </div>
+                    <div class="usecases-progress-content row" data-id="3">
+                        <div class="usecases-left-progress progress-padding col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="top-usecases-left-progress">
+                                <h2>03</h2>
+                                <h3>Scale Up Your Model</h3>
+                                <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic initiatives.
+                                </p>
+                            </div>
+                            <div class="bottom-usecases-left-progress">
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="usecases-left-progress col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img style="width: 100%;" src="../images/communicationpage/predictive-maintenance.svg"
+                                alt="predictive-maintenance-image">
+                        </div>
+                    </div>
+                    <div class="usecases-progress-content row" data-id="4">
+                        <div class="usecases-left-progress progress-padding col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="top-usecases-left-progress">
+                                <h2>04</h2>
+                                <h3>Continuously Improve</h3>
+                                <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic initiatives.
+                                </p>
+                            </div>
+                            <div class="bottom-usecases-left-progress">
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="usecases-left-progress col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img style="width: 100%;" src="../images/communicationpage/predictive-maintenance.svg"
+                                alt="predictive-maintenance-image">
+                        </div>
+                    </div>
+                    <div class="usecases-progress-content row" data-id="5">
+                        <div class="usecases-left-progress progress-padding col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="top-usecases-left-progress">
+                                <h2>05</h2>
+                                <h3>Continuously Improve</h3>
+                                <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic initiatives.
+                                </p>
+                            </div>
+                            <div class="bottom-usecases-left-progress">
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                                <div class="bottom-usecases-wrapper">
+                                    <img src="../images/communicationpage/usecases-icon.svg" alt="usecases-icon">
+                                    <p>Automate data analysis tasks, freeing up valuable time for teams to focus on strategic
+                                        initiatives.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="usecases-left-progress col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img style="width: 100%;" src="../images/communicationpage/predictive-maintenance.svg"
+                                alt="predictive-maintenance-image">
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--fifth section - AI Lifecycle-->
+    <section class="ai-lifecycle-section">
+        <div class="container">
+            <div class="ai-lifecycle-section-wrapper">
+                <div class="row lifecycle-row-wrapper" style="flex-direction: row-reverse;">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="lifecycle-image-section">
+                            <img src="../images/communicationpage/technology-stack-image.svg"
+                                alt="ai-lifecycle-section-image">
+                        </div>
+                    </div>
+                    <div class=" col-12 col-sm-6 col-md-6 col-lg-6">
+                        <h2 style="text-align: start;margin-bottom: 2rem;">Technology Stack</h2>
+                        <p class="lifecycle-para" style="width: 100%;margin: 0 0 4rem 0;text-align: start;color: #4e5774; font-size: 2rem;">Our solutions harness the power of visual data, transforming it into actionable insights 
+                            through advanced AI.</p>
+                        <div class="ai-lifecycle-section-right">
+                            <img src="../images/solutionpage/industry-section/empower-card-image.svg" alt="co-pilot-image"
+                                class="card-image">
+                            <div class="lifecycle-card-wrapper">
+                                <div class="lifecycle-card-content">
+                                    <h3>AI & Machine Learning</h3>
+                                    <img src="../images/solutionpage/lifecycle-section/dropdown-image.svg" alt="Arrow"
+                                        class="arrow">
+                                </div>
+                                <div class="lifecycle-card-description active">
+                                    <p style="font-size: 1.8rem;color: #4e5774;">
+                                        AI system that can create realistic images and art from a description in natural language. 
+                                        Label data quickly with a suite of AI-assisted 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ai-lifecycle-section-right">
+                            <img src="../images/communicationpage/card-image2.svg" alt="co-pilot-image"
+                                class="card-image">
+                            <div class="lifecycle-card-wrapper">
+                                <div class="lifecycle-card-content">
+                                    <h3>Cloud Computing</h3>
+                                    <img src="../images/solutionpage/lifecycle-section/dropdown-image.svg" alt="Arrow"
+                                        class="arrow">
+                                </div>
+                                <div class="lifecycle-card-description">
+                                    <p style="font-size: 1.8rem;color: #4e5774;">
+                                        Deploy advanced vision AI locally for faster processing and reduced latency in
+                                        critical applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ai-lifecycle-section-right">
+                            <img src="../images/communicationpage/card-imae3.svg" alt="co-pilot-image"
+                                class="card-image">
+                            <div class="lifecycle-card-wrapper">
+                                <div class="lifecycle-card-content">
+                                    <h3>IoT Devices </h3>
+                                    <img src="../images/solutionpage/lifecycle-section/dropdown-image.svg" alt="Arrow"
+                                        class="arrow">
+                                </div>
+                                <div class="lifecycle-card-description">
+                                    <p style="font-size: 1.8rem;color: #4e5774;">
+                                        Harness AI to streamline store operations and deliver seamless, automated
+                                        shopping experiences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row first-row">
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 left-col">
+                    <div class="footer-logo-wrapper">
+                        <div class="footer-logo">
+                            <a href="/">
+                                <img src="../images/xai-logo.svg" alt="xenonstack-ai-logo" />
+                            </a>
+                        </div>
+                        <p>Autonomous, Agentic AI systems designed to optimize and automate enterprise workflows seamlessly.
+                        </p>
+                        <div class="social-media-outside-wrapper">
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="https://www.akira.ai/hubfs/youtube-icon.svg" width="40" height="40" loading="lazy"
+                                    alt="Youtube">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="https://www.akira.ai/hubfs/linkedin-icon.svg" width="40" height="40"
+                                    loading="lazy" alt="LinkedIn">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="https://www.akira.ai/hubfs/facebook-icon.svg" width="40" height="40"
+                                    loading="lazy" alt="Github">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="https://www.akira.ai/hubfs/twitter-icon.svg" width="40" height="40" loading="lazy"
+                                    alt="Twitter">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="https://www.akira.ai/hubfs/mail-icon.svg" width="40" height="40" loading="lazy"
+                                    alt="Medium">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="https://www.akira.ai/hubfs/reddit-icon.svg" width="40" height="40" loading="lazy"
+                                    alt="Reddit">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-9 col-lg-9 right-col">
+                    <div class="partners-wrapper">
+                        <a href="https://www.databricks.com/company/partners" target="_blank" rel="noopener">
+                            <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/databricks.png"
+                                alt="databricks-icon" width="200" height="50" />
+                        </a>
+                        <a href="https://www.nvidia.com/en-in/startups/" target="_blank" rel="noopener">
+                            <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/nvidia-logo.svg"
+                                alt="nvidia-partner-icon" width="200" height="50" />
+                        </a>
+                        <a href="https://partner.microsoft.com/en-IN/" target="_blank" rel="noopener">
+                            <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/microsoft-partner.png"
+                                alt="microsoft-partner-icon" width="200" height="50" />
+                        </a>
+                        <a href="https://cloud.google.com/find-a-partner/" target="_blank" rel="noopener">
+                            <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/google-cloud-partner.svg"
+                                alt="google-cloud-partner-icon" width="200" height="50" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="footer-link-wrapper">
+                        <h2>Company</h2>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>About Us</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Contact Us</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Book Demo</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="footer-link-wrapper link-wrapper">
+                        <h2>Use Cases</h2>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Security Operations</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Finance Operations</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>HR Operations</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>IT Operations</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="footer-link-wrapper link-wrapper">
+                        <h2>Resources</h2>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Blogs</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Insights</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Case Studies</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Videos</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="footer-link-wrapper link-wrapper">
+                        <h2>Industry</h2>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Manufacturing</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Logistics</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Telecom</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer-link">
+                                <p>Energy</p>
+                                <img src="https://8162471.fs1.hubspotusercontent-na1.net/hubfs/8162471/footer-arrow-icon.svg"
+                                    alt="arrow-icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="terms-and-condition-wrapper">
+                <div class="copyright-wrapper">
+                    <p>Copyright 2024 - XenonStack AI. All Rights Reserved</p>
+                </div>
+                <div class="terms-security">
+                    <p>Terms</p>
+                    <p>Privacy</p>
+                    <p>Cookies</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/accordian.js"></script>
+    <script src="../js/industry-tab-switch.js"></script>
+    <script src="../js/industryToggle.js"></script>
+    <script src="../js/mobile-accordian.js"></script>
+    <script src="../js/usecases-changed.js"></script> 
+    <script src="../js/dynamic-fixed-card.js"></script>
+</body>
+
+</html>

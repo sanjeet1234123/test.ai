@@ -1,0 +1,77 @@
+.xenon-button {
+  border-collapse: collapse;
+  cursor: pointer;
+  text-align: center;
+  background: #f5df4d;
+  border: 0;
+  transition: all 0.2s ease 0s;
+  padding: 15px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  color: #2d1d0b;
+  display: inline-block;
+  width: max-content;
+  border-radius: 32px;
+  position: relative;
+  font-weight: 400;
+}
+.explore-button span {
+  color: #2d1d0b;
+}
+
+.new-banner-button {
+  border-collapse: collapse;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgb(24 96 211 / 80%);
+  text-align: center;
+  background: #f5df4d;
+  border: 0;
+  transition: all 0.2s ease 0s;
+  padding: 15px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  display: inline-block;
+  width: max-content;
+  border-radius: 32px;
+  position: relative;
+  font-weight: 400;
+}
+
+.nav-button {
+  border-collapse: collapse;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgb(24 96 211 / 80%);
+  animation: pulse 2s infinite;
+  text-align: center;
+  background: #1450a8 none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0;
+  transition: all 0.2s ease 0s;
+  padding: 0 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  display: inline-block;
+  width: max-content;
+  border-radius: 12px;
+  position: relative;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.upper-header-button {
+  border: 2px solid #1450a8 !important;
+  cursor: pointer;
+  text-align: center;
+  background: transparent;
+  padding: 10px 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(24 96 211 / 80%);
+  width: max-content;
+  border-radius: 32px;
+}
+
+.upper-header-button span {
+  color: #1450a8;
+}

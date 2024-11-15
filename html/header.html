@@ -1,0 +1,216 @@
+<!-- header -->
+<header class="header-wrapper" id="headerblock">
+    <div class="container header-container">
+        <div class="mobile-header-block">
+            <div class="mobile-header-inner">
+                <a href="/">
+                    <img src="../images/xai-logo.svg" width="200" height="50" alt="xenonstack-ai-logo"
+                        id="colorLogoMobile">
+                    <img src="../images/xai-logo.svg" alt="xenonstack-ai-logo" width="200" height="50"
+                        id="uncolorLogoMobile" style="display: none;">
+                </a>
+                <div class="mobile-right">
+                    <div class="mobile-search"></div>
+                    <div class="menu-icon">
+                        <img src="../images/home-page/black-hamburger.svg" class="xenonstack-hamburger"
+                            alt="Xenonstack Hamburger" onclick="showMenu()" id="colorHamburgerMobile">
+                        <img src="../images/home-page/black-hamburger.svg" class="xenonstack-hamburger"
+                            alt="Xenonstack Hamburger" onclick="showMenu()" id="uncolorHamburgerMobile"
+                            style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="header">
+            <ul class="nav-ul">
+                <li class="nav-li logo-li" style="display: flex;">
+                    <a href="/">
+                        <img src="../images/xai-logo.svg" width="200" height="50"  alt="xenonstack-ai-logo"
+                            id="colorLogo" style="display: block; margin-right: 3rem;">
+                        <img src="../images/xai-logo.svg" width="200" height="50" alt="xenonstack-ai-logo"
+                            id="uncolorLogo" style="display: none;margin-right: 3rem;">
+                    </a>
+                    <div class="menu-icon">
+                        <em class="fa fa-bars" onclick="showMenu()"></em>
+                    </div>
+                </li>
+                <li class="nav-li platform-li item" id="nav-platform" style="display: flex">
+                    <a href="" class="arrow">About Us</a>
+                </li>
+                <li class="nav-li item" id="nav-solutions" style="display: flex">
+                    <a href="" class="arrow">Products</a>
+                </li>
+                <li class="nav-li item header-position" id="nav-solutions">
+                    <a class="arrow">Solutions <span class="dropdown-icon" onclick="toggleAccordion(event)">▼</span></a>
+                    <div class="dropdown-content">
+                        <div class="top-dropdown-content" >
+                            <div class="left-dropdown-content">
+                                <p>Industries</p>
+                            </div>
+                            <div class="right-dropdown-content">
+                                <a href="https://www.xenonstack.ai/solution" class="view-all" style="color: #6C54FF">View All Industries</a>
+                                <img src="../images/solutionpage/industry-section/arrow-right.svg"
+                                    alt="read-more-arrow">
+                            </div>
+                        </div>
+                        <div class="industries">
+                            <div class="industry-column">
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/microphone-2.svg" alt="communication-images">
+                                    <a href="https://www.xenonstack.ai/communication">Communications</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/building.svg" alt="consumer-images">
+                                    <a href="#">Consumer Goods</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/book.svg" alt="education-images">
+                                    <a href="#">Education</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/sun.svg" alt="education-images">
+                                    <a href="#">Energy</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/building-4.svg" alt="smart-cities-images">
+                                    <a href="#">Smart Cities</a>
+                                </div>
+                            </div>
+                            <div class="industry-column">
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/courthouse.svg" alt="government-images">
+                                    <a href="#">Government</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/media-industry-image.svg" alt="media-images">
+                                    <a href="#">Media</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/airplane.svg" alt="aerospace-images">
+                                    <a href="#">Aerospace</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/group.svg" alt="transportation-images">
+                                    <a href="#">Transportation</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/lock.svg" alt="security-images">
+                                    <a href="#">Security</a>
+                                </div>
+                            </div>
+                            <div class="industry-column">
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/telco-image.svg" alt="telco-images">
+                                    <a href="#">Telco</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/bank.svg" alt="bank-images">
+                                    <a href="#">Banking</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/shopping-cart.svg" alt="utility-images">
+                                    <a href="#">Utility</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/dollar-circle.svg" alt="financial-services-images">
+                                    <a href="#">Financial Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-content-mobile" style="display: none;">
+                        <div class="top-dropdown-content">
+                            <div class="left-dropdown-content">
+                                <p>Industries</p>
+                            </div>
+                            <div class="right-dropdown-content">
+                                <a href="https://www.xenonstack.ai/solution" class="view-all" style="color: #6C54FF">View All Industries</a>
+                                <img src="../images/solutionpage/industry-section/arrow-right.svg" alt="read-more-arrow">
+                            </div>
+                        </div>
+                        <div class="mobile-industries">
+                            <div class="industry-column">
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/microphone-2.svg" alt="communication-images">
+                                    <a href="https://www.xenonstack.ai/communication">Communications</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/building.svg" alt="consumer-images">
+                                    <a href="#">Consumer Goods</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/book.svg" alt="education-images">
+                                    <a href="#">Education</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/sun.svg" alt="education-images">
+                                    <a href="#">Energy</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/building-4.svg" alt="smart-cities-images">
+                                    <a href="#">Smart Cities</a>
+                                </div>
+                            </div>
+                            <div class="industry-column">
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/courthouse.svg" alt="government-images">
+                                    <a href="#">Government</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/media-industry-image.svg" alt="media-images">
+                                    <a href="#">Media</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/airplane.svg" alt="aerospace-images">
+                                    <a href="#">Aerospace</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/group.svg" alt="transportation-images">
+                                    <a href="#">Transportation</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/lock.svg" alt="security-images">
+                                    <a href="#">Security</a>
+                                </div>
+                            </div>
+                            <div class="industry-column">
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/telco-image.svg" alt="telco-images">
+                                    <a href="#">Telco</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/bank.svg" alt="bank-images">
+                                    <a href="#">Banking</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/use-cases/shopping-cart.svg" alt="utility-images">
+                                    <a href="#">Utility</a>
+                                </div>
+                                <div class="industry-wrapper">
+                                    <img src="../images/solutionpage/industry-section/dollar-circle.svg" alt="financial-services-images">
+                                    <a href="#">Financial Services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-li item" id="nav-usecase" style="display: flex">
+                    <a href="" class="arrow">Agentic AI</a>
+                </li>
+                <li class="nav-li item" id="nav-usecase" style="display: flex">
+                    <a href="" class="arrow">Usecases</a>
+                </li>
+                <li class="nav-li item" id="nav-integration" style="display: flex">
+                    <a href="" class="arrow">Resources</a>
+                </li>
+                <li>
+                    <div class="nav-li button-item">
+                        <a href="#">
+                            <button class="nav-button button-margin">Contact Us</button>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
